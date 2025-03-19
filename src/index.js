@@ -1,3 +1,29 @@
+// Creating Objects
+console.log('----------------------------');
+
+// An object literal that is not assigned to a variable or
+// placed inside of a function call.
+// Uncomment the lines below to see the SyntaxError raised
+// {
+//   breakfast: 'Cereal',
+//   lunch: 'Sandwich',
+//   dinner: 'Japchae'
+// };
+
+// An object literal assigned to a variable
+const myMealsObj = {
+  breakfast: 'Cereal',
+  lunch: 'Sandwich',
+  dinner: 'Japchae'
+};
+
+// An object literal passed as an argument to a function
+console.log('Object literal as a function argument:', {
+  breakfast: 'Cereal',
+  lunch: 'Sandwich',
+  dinner: 'Japchae'
+});
+
 let result;
 
 const testObj = {
